@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include<string.h>
+#include<locale.h>
+ 
+int copy( char *str1,char *str2,char *str3);
+void view(char *str1, char *str2, char *str3);
+void konk(char *str1, char *str2, char *str3);
+
+int main(void){
+	setlocale(LC_ALL, "RUS");
+	char str1[30];
+	char str2[30];
+	char str3[30];
+	printf("Введите 3 строки(латиницей) : \n");
+	gets(str1);
+	gets(str2);
+	gets(str3);
+
+	
+	return 0;
+}
